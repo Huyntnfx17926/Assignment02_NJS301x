@@ -1,0 +1,61 @@
+.dashboard__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.booked__status,
+.checkin__status,
+.checkout__status {
+  font-weight: bold;
+}
+
+.dashboard__icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 2rem;
+  height: 2rem;
+  bottom: 10px;
+  right: 10px;
+}
+
+.icon__balance {
+  background-color: var(--purple-xx);
+}
+
+.icon__balance svg {
+  color: var(--purple-x);
+}
+
+.icon__earning {
+  background-color: var(--green-xx);
+}
+
+.checkout__status,
+.icon__earning svg {
+  color: var(--green-x);
+}
+
+.icon__user {
+  background-color: var(--red-xx);
+}
+
+.booked__status,
+.icon__user svg {
+  color: var(--red-x) !important;
+}
+
+.icon__order {
+  background-color: var(--yellow-xx);
+}
+
+.checkin__status,
+.icon__order svg {
+  color: var(--yellow-x);
+}
+
+.dashboard__icon svg {
+  width: 1rem;
+}

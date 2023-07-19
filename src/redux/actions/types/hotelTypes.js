@@ -1,0 +1,3 @@
+export const HOTEL_ACTION = {
+  GET_HOTEL_LIST: "GET_HOTEL_LIST",
+};

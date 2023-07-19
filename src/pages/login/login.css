@@ -1,0 +1,24 @@
+.login__body {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__title {
+  color: var(--purple-x);
+}
+
+.login__button {
+  background-color: var(--purple-xx);
+  color: var(--purple-x);
+  border: none;
+  padding: 0.5rem 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.login__button:hover {
+  background-color: var(--purple-x);
+  color: var(--white-x);
+}

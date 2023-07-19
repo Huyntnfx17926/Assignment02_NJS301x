@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --white-x: white;
+  --purple-x: #6334ff;
+  --gray-x: gray;
+  --red-x: rgba(255, 0, 0, 1);
+  --red-xx: rgba(255, 0, 0, 0.2);
+  --red-xxx: red;
+  --yellow-x: rgba(131, 131, 0, 1);
+  --yellow-xx: rgba(163, 163, 0, 0.2);
+  --green-x: rgba(0, 128, 0, 1);
+  --green-xx: rgba(0, 128, 0, 0.2);
+  --purple-x: rgba(128, 0, 128, 1);
+  --purple-xx: rgba(128, 0, 128, 0.2);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.app__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.purple-text {
+  color: var(--purple-x);
+  font-size: 1.5rem;
+}
+
+.warning-text {
+  color: var(--red-xxx) !important;
+}
+
+.app__wrapper {
+  background-color: #bfbfbf;
+  height: 100vh;
+}
+
+/* ----------------------------------------------------------------- */
+/* BUTTON - START */
+/* ----------------------------------------------------------------- */
+
+.button {
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  font-weight: bold;
+}
+
+.button--red {
+  background-color: var(--red-xx);
+  color: var(--red-x);
+}
+
+.button--red:hover {
+  background-color: var(--red-x);
+  color: var(--white-x);
+}
+
+.button--green {
+  background-color: var(--green-xx);
+  color: var(--green-x);
+}
+
+.button--green:hover {
+  background-color: var(--green-x);
+  color: var(--white-x);
+}
+
+.button--add {
+  padding: 0 1rem;
+}
+
+.button--delete {
+  padding: 0.2rem 1rem;
+}
+
+/* ----------------------------------------------------------------- */
+/* BUTTON - END */
+/* ----------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------- */
+/* INPUT - START */
+/* ----------------------------------------------------------------- */
+
+.input-underline {
+  width: 100%;
+  background-image: linear-gradient(#0000, #00000052);
+  background-position: bottom 5px center;
+  background-size: calc(100% - 10px) 2px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.input-warning {
+  background-image: linear-gradient(var(--red-xxx), var(--red-xxx)) !important;
+}
+
+.input-border-warning {
+  border-color: var(--red-xxx) !important;
+}
+
+.textArea-warning {
+  border-color: var(--red-xxx) !important;
+}
+
+.input-outline-none:focus {
+  outline: none;
+}
+
+/* ----------------------------------------------------------------- */
+/* INPUT - END */
+/* ----------------------------------------------------------------- */

@@ -1,0 +1,18 @@
+.modal__button {
+  padding: 0.5rem 2rem;
+}
+
+.modal__container {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content; */
+}
+
+.modal__wrapper {
+  /* display: block;
+  position: initial;
+  width: 500px; */
+}

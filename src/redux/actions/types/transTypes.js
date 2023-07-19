@@ -1,0 +1,3 @@
+export const TRANSACTION_ACTION = {
+  GET_LASTEST_LIST: "GET_LASTEST_LIST",
+};
